@@ -300,6 +300,16 @@ p {
   font-size: 35px;
 }
 
+.custom-card {
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+
+.custom-card:hover {
+  box-shadow: 0 8px 20px #aa6aaa;
+  cursor: pointer;
+  transform: translateY(-4px);
+}
+
 /* ========================================================================== */
 /*                              FOOTER SECTION                                */
 /* ========================================================================== */
@@ -387,6 +397,30 @@ p {
 
 .last li:hover i {
   color: var(--primary-color);
+}
+
+.last button {
+  background: transparent;
+  border: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.comp-logo {
+  text-align: center;
+}
+
+.comp-logo img {
+  display: inline-block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
 }
 
 /* ========================================================================== */
