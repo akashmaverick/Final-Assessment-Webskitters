@@ -157,7 +157,7 @@ p {
 .banner-wrpr {
   background: url("../Assets/bg.png") no-repeat center/cover;
   border-radius: 20px;
-  min-height: 100vh;
+  /* min-height: 100vh; */
   text-align: center;
   padding-top: 80px;
 }
@@ -406,7 +406,7 @@ p {
   color: var(--primary-color);
 }
 
-.last button {
+.last a {
   background: transparent;
   border: none;
   padding: 0;
@@ -417,6 +417,7 @@ p {
   align-items: center;
   justify-content: center;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .comp-logo {
