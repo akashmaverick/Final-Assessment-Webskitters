@@ -11,6 +11,13 @@
   src: url("../Assets/font/SangBleu\ Sunrise.ttf");
 }
 
+/* Global CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 /* Default font stack */
 body {
   font-family: Sangblue, sans-serif;
@@ -54,7 +61,7 @@ ul li {
 }
 
 .btn-primary:hover {
-  background: #d886d8; /* Slightly lighter hover shade */
+  background: #d886d8;
 }
 
 .secondary-btn {
@@ -565,13 +572,13 @@ p {
 }
 
 .btn-primary:hover {
-  background: #c277c2; /* Slightly lighter than primary */
+  background: #c277c2;
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(170, 106, 170, 0.4);
 }
 
 .secondary-btn:hover {
-  background: #d1c0d1; /* Slightly darker than secondary */
+  background: #d1c0d1;
   transform: translateY(-2px);
   box-shadow: 0 4px 12px rgba(229, 220, 229, 0.4);
 }
